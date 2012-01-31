@@ -1,19 +1,11 @@
-" Vim color file
-" Maintainer:	Ajit J. Thakkar (ajit AT unb DOT ca)
-" Last Change:	2005 Nov. 24
-" Version:	1.5
-" URL:		http://www.unb.ca/chem/ajit/vim.htm
-
-" This GUI-only color scheme has a light grey background, and is a softer
-" variant of the default and morning color schemes.
-
+" Vim color file based on dawn from Ajit J. Thakkar (ajit AT unb DOT ca) http://www.unb.ca/chem/ajit/vim.htm
 set background=light
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "dawn"
+let colors_name = "damnpaul"
 
 hi Normal	guifg=Black guibg=grey90
 "hi Normal	guifg=Black guibg=grey80
@@ -21,7 +13,9 @@ hi Normal	guifg=Black guibg=grey90
 " tweaked settings:
 hi Directory	guifg=Brown guibg=bg
 hi CursorLine guibg=grey80
-hi PMenu guibg=RoyalBlue guifg=white
+hi PMenu guibg=Grey guifg=black
+hi PmenuSel guibg=RoyalBlue guifg=white
+hi PmenuSbar guibg=Orange
 hi NonText	gui=NONE guifg=LightGrey guibg=grey90
 hi MatchParen gui=bold guibg=grey80 guifg=fg
 hi Cursor	guifg=NONE guibg=Orange
